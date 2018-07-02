@@ -128,7 +128,7 @@ class Ntropy
             weight_update_value = @weight_update_values[layer][n][source_neuron]
             gradient = -@gradient[layer][n][source_neuron]
             previous_gradient = @previous_gradients[layer][n][source_neuron]
-            c = sign(gradient * precious_gradient)
+            c = sign(gradient * previous_gradient)
 
             case c
             when 1 then # No sign change; accelerate gradient descent
