@@ -1,4 +1,4 @@
-class Ntropy
+class NN
   getter :shape, :outputs
   property :weights, :weight_update_values
 
