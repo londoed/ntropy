@@ -1,6 +1,6 @@
 # ntropy
 
-TODO: Write a description here
+A simple skeleton of a neural network written in Crystal.
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   ntropy:
-    github: your-github-user/ntropy
+    github: londoed/ntropy
 ```
 
 ## Usage
@@ -34,4 +34,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) londoed - creator, maintainer
+- [londoed](https://github.com/londoed) londoed - creator, maintainer

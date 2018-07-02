@@ -1,6 +1,7 @@
+require "logger"
 require "./ntropy/*"
 
-# TODO: Write documentation for `Ntropy`
+
 module Ntropy
-  # TODO: Put your code here
+  alias GenNum = Float64 | Int32 | Int64 | Float32
 end
