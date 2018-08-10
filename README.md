@@ -1,6 +1,6 @@
 # ntropy
 
-A simple skeleton of a neural network written in Crystal.
+A simple neural network written in Crystal lang.
 
 ## Installation
 
